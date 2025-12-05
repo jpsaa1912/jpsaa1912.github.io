@@ -4,7 +4,7 @@ OWNER: Amphoteric Ltd
 FECHA: 2025
 
 AUTHOR DESCRIPTIONS:
-The logotype, isotype, commercial name Amphoteric Ltd
+The logotype, isotype, commercial name "Amphoteric Ltd"
 and any associated element of visual identity is proprietary
 intellectual exclusive from Amphoteric Ltd.
 
