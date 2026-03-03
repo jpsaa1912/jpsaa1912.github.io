@@ -3,437 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amphoteric Studio - Próximamente</title>
+    <title>Amphoteric Studio - Desarrollo de Videojuegos Innovadores</title>
+    
+    <!-- Meta tags SEO -->
+    <meta name="description" content="Amphoteric Studio es un estudio de desarrollo de videojuegos enfocado en crear experiencias de juego extraordinarias. Próximamente nuestro primer título: Crom's Escape.">
+    <meta name="keywords" content="videojuegos, desarrollo de videojuegos, estudio indie, Crom's Escape, Amphoteric Studio">
+    <meta name="author" content="Amphoteric Ltd">
+    
     <!-- Open Graph para redes sociales -->
     <meta property="og:title" content="Amphoteric Studio - Desarrolladores de Videojuegos">
-    <meta property="og:description" content="Creando experiencias de juego extraordinarias. ¡Próximamente!">
+    <meta property="og:description" content="Creando experiencias de juego extraordinarias. Descubre nuestro primer proyecto: Crom's Escape.">
     <meta property="og:image" content="https://jpsaa1912.github.io/logo.png">
     <meta property="og:url" content="https://amphotericstudio.com">
-    <meta name="copyright" content="Amphoteric Ltd">
-    <meta name="owner" content="Amphoteric Ltd">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
-    <style>
-        /* Reset y configuración base */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0a1929, #1a2b3c, #2c3e50);
-            color: #ffffff;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-            position: relative;
-            overflow-x: hidden;
-        }
-        
-        /* Efecto de partículas estelares mejorado */
-        .stars {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: 0;
-        }
-        
-        .star {
-            position: absolute;
-            background-color: rgba(255, 255, 255, 0.8);
-            border-radius: 50%;
-            animation: twinkle 3s infinite ease-in-out;
-        }
-        
-        @keyframes twinkle {
-            0%, 100% { 
-                opacity: 0.3; 
-                transform: scale(1);
-            }
-            50% { 
-                opacity: 1; 
-                transform: scale(1.2);
-            }
-        }
-        
-        /* Contenedor principal mejorado */
-        .container {
-            max-width: 900px;
-            width: 100%;
-            background: rgba(15, 25, 35, 0.9);
-            backdrop-filter: blur(15px);
-            border-radius: 25px;
-            padding: 60px 50px;
-            text-align: center;
-            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
-            border: 1px solid rgba(255, 215, 0, 0.15);
-            position: relative;
-            z-index: 1;
-            animation: fadeIn 1s ease-out;
-        }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        /* Logo mejorado */
-        .logo-container {
-            margin-bottom: 40px;
-            border-radius: 50%;
-        }
-
-        .logo-container img {
-            border-radius: 50%;
-        }
-        
-        .logo-placeholder {
-            width: 160px;
-            height: 160px;
-            margin: 0 auto;
-            background: linear-gradient(135deg, #8a2be2, #4169e1, #00bfff);
-            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 60px;
-            font-weight: 900;
-            color: white;
-            box-shadow: 0 15px 35px rgba(138, 43, 226, 0.4);
-            animation: float 6s ease-in-out infinite;
-        }
-        
-        @keyframes float {
-            0%, 100% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(-15px) rotate(5deg); }
-        }
-        
-        .logo-placeholder::before {
-            content: '';
-            position: absolute;
-            width: 180px;
-            height: 180px;
-            border: 2px solid rgba(255, 215, 0, 0.3);
-            border-radius: inherit;
-            animation: pulse 3s ease-in-out infinite;
-        }
-        
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); opacity: 0.5; }
-            50% { transform: scale(1.1); opacity: 0.8; }
-        }
-        
-        /* Títulos mejorados */
-        h1 {
-            font-size: 4em;
-            margin-bottom: 15px;
-            background: linear-gradient(45deg, #ffd700, #ff8c00, #ff4500);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            text-shadow: 0 5px 15px rgba(255, 215, 0, 0.2);
-        }
-        
-        .subtitle {
-            font-size: 1.5em;
-            margin-bottom: 40px;
-            color: #a0e7ff;
-            font-weight: 300;
-            letter-spacing: 1px;
-            position: relative;
-            display: inline-block;
-            padding-bottom: 10px;
-        }
-        
-        .subtitle::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100px;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, #ffd700, transparent);
-        }
-        
-        /* Texto principal mejorado */
-        .main-text {
-            font-size: 1.3em;
-            line-height: 1.9;
-            margin-bottom: 50px;
-            color: #e6f7ff;
-            padding: 0 20px;
-        }
-        
-        .highlight {
-            color: #ffd700;
-            font-weight: 700;
-            text-shadow: 0 2px 10px rgba(255, 215, 0, 0.3);
-        }
-        
-        /* Sección "Próximamente" */
-        .coming-soon {
-            background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), rgba(138, 43, 226, 0.1));
-            border: 2px solid rgba(255, 215, 0, 0.3);
-            border-radius: 20px;
-            padding: 40px;
-            margin: 50px 0;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .coming-soon::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: linear-gradient(45deg, transparent, rgba(255, 215, 0, 0.1), transparent);
-            animation: shine 6s infinite linear;
-        }
-        
-        @keyframes shine {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        
-        .coming-soon-content {
-            position: relative;
-            z-index: 2;
-        }
-        
-        .coming-soon-icon {
-            font-size: 4em;
-            margin-bottom: 20px;
-            display: block;
-            animation: bounce 2s infinite;
-        }
-        
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
-        
-        .coming-soon h3 {
-            font-size: 2.2em;
-            margin-bottom: 15px;
-            color: #ffd700;
-            font-weight: 700;
-        }
-        
-        .coming-soon p {
-            font-size: 1.2em;
-            color: #ffffff;
-            opacity: 0.9;
-        }
-        
-        /* Botón de contacto mejorado */
-        .contact-btn {
-            display: inline-block;
-            background: linear-gradient(135deg, #8a2be2, #4169e1);
-            color: white;
-            padding: 18px 45px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-size: 1.3em;
-            font-weight: 700;
-            margin: 30px 0;
-            transition: all 0.3s ease;
-            box-shadow: 0 10px 25px rgba(138, 43, 226, 0.4);
-            position: relative;
-            overflow: hidden;
-            border: none;
-            cursor: pointer;
-            letter-spacing: 1px;
-        }
-        
-        .contact-btn::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-            transition: 0.5s;
-        }
-        
-        .contact-btn:hover {
-            transform: translateY(-8px) scale(1.05);
-            box-shadow: 0 15px 35px rgba(138, 43, 226, 0.6);
-        }
-        
-        .contact-btn:hover::before {
-            left: 100%;
-        }
-        
-        /* Redes sociales mejoradas */
-        .social-section {
-            margin: 40px 0;
-        }
-        
-        .social-title {
-            font-size: 1.2em;
-            margin-bottom: 25px;
-            color: #a0e7ff;
-            font-weight: 600;
-        }
-        
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin-top: 20px;
-        }
-        
-        .social-icon {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.1);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            font-size: 1.8em;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .social-icon::before {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(135deg, #8a2be2, #4169e1);
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-        
-        .social-icon i {
-            position: relative;
-            z-index: 1;
-        }
-        
-        .social-icon:hover::before {
-            opacity: 1;
-        }
-        
-        .social-icon:hover {
-            transform: translateY(-5px) scale(1.1);
-            box-shadow: 0 10px 20px rgba(138, 43, 226, 0.4);
-        }
-        
-        /* Footer mejorado */
-        footer {
-            margin-top: 50px;
-            padding-top: 30px;
-            border-top: 1px solid rgba(255, 255, 255, 0.15);
-            color: #aaa;
-            font-size: 0.9em;
-            line-height: 1.8;
-        }
-        
-        .footer-highlight {
-            color: #ffd700;
-            font-weight: 700;
-        }
-        
-        .footer-notice {
-            margin-top: 15px;
-            font-size: 0.85em;
-            color: #888;
-            padding: 10px;
-            background: rgba(0, 0, 0, 0.2);
-            border-radius: 8px;
-        }
-        
-        .footer-notice a {
-            color: #ffd700;
-            text-decoration: none;
-        }
-        
-        .footer-notice a:hover {
-            text-decoration: underline;
-        }
-        
-        /* Responsive mejorado */
-        @media (max-width: 768px) {
-            .container {
-                padding: 40px 25px;
-                border-radius: 20px;
-            }
-            
-            h1 {
-                font-size: 2.8em;
-            }
-            
-            .subtitle {
-                font-size: 1.3em;
-            }
-            
-            .logo-placeholder {
-                width: 130px;
-                height: 130px;
-                font-size: 50px;
-            }
-            
-            .main-text {
-                font-size: 1.1em;
-                padding: 0 10px;
-            }
-            
-            .coming-soon {
-                padding: 30px 20px;
-            }
-            
-            .coming-soon h3 {
-                font-size: 1.8em;
-            }
-            
-            .social-links {
-                gap: 20px;
-            }
-            
-            .social-icon {
-                width: 50px;
-                height: 50px;
-                font-size: 1.5em;
-            }
-            
-            .contact-btn {
-                padding: 16px 35px;
-                font-size: 1.1em;
-            }
-        }
-        
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 2.2em;
-            }
-            
-            .subtitle {
-                font-size: 1.1em;
-            }
-            
-            .social-links {
-                flex-wrap: wrap;
-                gap: 15px;
-            }
-        }
-    </style>
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Amphoteric Studio">
+    <meta name="twitter:description" content="Creando experiencias de juego extraordinarias">
+    <meta name="twitter:image" content="https://jpsaa1912.github.io/logo.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+    
     <!-- Font Awesome para iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -441,154 +37,142 @@
     <!-- Fondo de estrellas -->
     <div class="stars" id="stars"></div>
     
+    <!-- Header con navegación -->
+    <header class="main-header">
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Amphoteric Studio Logo">
+                <span>AMPHOTERIC</span>
+            </a>
+            
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="#games">Juegos</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="privacy.html">Privacidad</a></li>
+                <li><a href="terms.html">Términos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
     <!-- Contenido principal -->
-    <div class="container">
-        <!-- Logo y marca -->
-        <div class="logo-container">
-            <img src="logo.png" alt="Amphoteric Studio Logo" class="studio-logo">
-        </div>
-        
-        <h1>AMPHOTERIC STUDIO</h1>
-        <div class="subtitle">Creando Mundos, Forjando Aventuras</div>
-        
-        <p class="main-text">
-            En <span class="highlight">Amphoteric Studio</span> estamos inmersos en el desarrollo de 
-            <span class="highlight">experiencias de juego extraordinarias</span>. 
-            Nuestro equipo está trabajando arduamente para traerte títulos innovadores 
-            que despertarán tu imaginación y desafiarán tus habilidades.
-        </p>
-        
-        <!-- Sección "Próximamente" -->
-        <div class="coming-soon">
-            <div class="coming-soon-content">
-                <div class="coming-soon-icon">🚀</div>
-                <h3>¡ESTAREMOS DISPONIBLES MUY PRONTO!</h3>
-                <p>Estamos preparando algo increíble para ti. Mantente atento a nuestro lanzamiento.</p>
+    <main class="main-container">
+        <div class="container">
+            <!-- Logo y marca -->
+            <div class="logo-container">
+                <img src="images/logoG.png" alt="Amphoteric Studio Logo">
             </div>
-        </div>
-        
-        <p class="main-text">
-            Muy pronto revelaremos nuestro primer proyecto y podrás unirte a nuestra 
-            creciente comunidad de jugadores. El futuro del entretenimiento interactivo 
-            está a punto de comenzar.
-        </p>
-        
-        <!-- Botón de contacto -->
-        <a href="mailto:contact@amphotericstudio.com" class="contact-btn">
-            <i class="fas fa-envelope"></i> CONTÁCTANOS
-        </a>
-        
-        <!-- Redes sociales -->
-        <div class="social-section">
-            <div class="social-title">SÍGUENOS EN NUESTRAS REDES</div>
-            <div class="social-links">
-                <a href="https://youtube.com/@amphotericstudio" class="social-icon" target="_blank" aria-label="YouTube">
-                    <i class="fab fa-youtube"></i>
-                </a>
-                <!--<a href="https://twitter.com/amphotericstudio" class="social-icon" target="_blank" aria-label="Twitter">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://instagram.com/amphotericstudio" class="social-icon" target="_blank" aria-label="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://discord.gg/amphotericstudio" class="social-icon" target="_blank" aria-label="Discord">
-                    <i class="fab fa-discord"></i>
-                </a>
-                <a href="https://linkedin.com/company/amphotericstudio" class="social-icon" target="_blank" aria-label="LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
-                </a> -->
-            </div>
-        </div>
-        
-        <!-- Footer -->
-        <footer>
-            <p>
-                © 2025 <span class="footer-highlight">Amphoteric Studio</span>. 
-                Todos los derechos reservados.
+            
+            <h1>AMPHOTERIC STUDIO</h1>
+            <div class="subtitle">Creando Mundos, Forjando Aventuras</div>
+            
+            <p class="main-text" style="font-size: 1.2rem; margin-bottom: 2rem; color: #e6f7ff;">
+                En <span class="highlight" style="color: var(--accent); font-weight: 700;">Amphoteric Studio</span> estamos inmersos en el desarrollo de 
+                <span class="highlight" style="color: var(--accent);">experiencias de juego extraordinarias</span>. 
+                Nuestro equipo está trabajando arduamente para traerte títulos innovadores 
+                que despertarán tu imaginación y desafiarán tus habilidades.
             </p>
-            <p>
-                <span class="footer-highlight">Amphoteric Ltd</span> - Desarrollo de videojuegos innovadores.
-            </p>
-            <div class="footer-notice">
-                <a href="privacy-policy.html" style="color: #ffd700; text-decoration: none; margin-right: 15px;">
-                    Privacy Policy (English)
-                </a>
-                El logotipo y la marca "Amphoteric Studio" son propiedad de 
-                <span class="footer-highlight">Amphoteric Ltd</span>. 
-                Prohibido su uso sin autorización.<br>
-                Código bajo <a href="LICENSE">MIT License</a>.
+            
+            <!-- Sección "Próximamente" con enfoque en Crom's Escape -->
+            <div class="coming-soon">
+                <div class="coming-soon-content">
+                    <div class="logoC">
+                        <img src="images/logoC.png" alt="Crom's Escape Logo" width="100%" height="100%">
+                    </div>
+                    <h3>¡CROM'S ESCAPE PRÓXIMAMENTE!</h3>
+                    <p>Nuestro primer título está en desarrollo. Un juego de plataformas y puzzles que te mantendrá al borde del asiento.</p>
+                    <a href="#" class="btn" style="margin-top: 1.5rem; display: inline-block;">MÁS INFORMACIÓN</a>
+                </div>
             </div>
-        </footer>
-    </div>
-
-    <script>
-        // Generar estrellas aleatorias mejoradas
-        const starsContainer = document.getElementById('stars');
-        const starCount = 150;
-        
-        for (let i = 0; i < starCount; i++) {
-            const star = document.createElement('div');
-            star.classList.add('star');
             
-            // Tamaño aleatorio
-            const size = Math.random() * 4 + 1;
-            star.style.width = `${size}px`;
-            star.style.height = `${size}px`;
-            
-            // Posición aleatoria
-            star.style.left = `${Math.random() * 100}%`;
-            star.style.top = `${Math.random() * 100}%`;
-            
-            // Animación aleatoria
-            star.style.animationDelay = `${Math.random() * 5}s`;
-            star.style.animationDuration = `${Math.random() * 3 + 2}s`;
-            
-            // Opacidad aleatoria
-            star.style.opacity = Math.random() * 0.8 + 0.2;
-            
-            starsContainer.appendChild(star);
-        }
-        
-        // Efecto de escritura para el título
-        const studioName = "AMPHOTERIC STUDIO";
-        const titleElement = document.querySelector('h1');
-        let charIndex = 0;
-        
-        function typeWriter() {
-            if (charIndex < studioName.length) {
-                titleElement.innerHTML = studioName.substring(0, charIndex + 1);
-                charIndex++;
-                setTimeout(typeWriter, 100);
-            }
-        }
-        
-        // Iniciar efectos después de cargar la página
-        window.addEventListener('load', () => {
-            setTimeout(typeWriter, 500);
-            
-            // Efecto de aparición secuencial para elementos
-            const elements = document.querySelectorAll('.subtitle, .main-text, .coming-soon, .contact-btn, .social-section, footer');
-            elements.forEach((el, index) => {
-                el.style.opacity = '0';
-                el.style.transform = 'translateY(20px)';
+            <!-- Sección de características -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 3rem 0;">
+                <div style="text-align: center; padding: 1.5rem; background: rgba(255,255,255,0.05); border-radius: 15px;">
+                    <i class="fas fa-gamepad" style="font-size: 3rem; color: var(--accent); margin-bottom: 1rem;"></i>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem;">Gameplay Innovador</h3>
+                    <p style="color: var(--text-dim);">Mecánicas únicas que combinan plataformas clásicas con puzzles modernos.</p>
+                </div>
                 
-                setTimeout(() => {
-                    el.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
-                    el.style.opacity = '1';
-                    el.style.transform = 'translateY(0)';
-                }, 300 + (index * 200));
-            });
-        });
+                <div style="text-align: center; padding: 1.5rem; background: rgba(255,255,255,0.05); border-radius: 15px;">
+                    <i class="fas fa-paint-brush" style="font-size: 3rem; color: var(--accent); margin-bottom: 1rem;"></i>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem;">Arte Único</h3>
+                    <p style="color: var(--text-dim);">Estilo visual distintivo que sumerge al jugador en mundos extraordinarios.</p>
+                </div>
+                
+                <div style="text-align: center; padding: 1.5rem; background: rgba(255,255,255,0.05); border-radius: 15px;">
+                    <i class="fas fa-users" style="font-size: 3rem; color: var(--accent); margin-bottom: 1rem;"></i>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem;">Comunidad</h3>
+                    <p style="color: var(--text-dim);">Únete a una creciente comunidad de jugadores apasionados.</p>
+                </div>
+            </div>
+            
+            <!-- Botón de contacto -->
+            <div style="text-align: center; margin: 2rem 0;">
+                <a href="mailto:info@amphotericstudio.com" class="btn">
+                    <i class="fas fa-envelope"></i> CONTÁCTANOS
+                </a>
+            </div>
+            
+            <!-- Redes sociales -->
+            <div class="social-section">
+                <div class="social-title">SÍGUENOS EN NUESTRAS REDES</div>
+                <div class="social-links">
+                    <a href="https://youtube.com/@amphotericstudio" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://x.com/Amphotericstu" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <i class="fab fa-x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/amphotericstudio?igsh=c2MwNmQ4eDB5MnZt" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <!--<a href="https://discord.gg/amphotericstudio" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+                        <i class="fab fa-discord"></i>
+                    </a>-->
+                    <a href="https://www.linkedin.com/company/amphoteric-studio" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Amphoteric Studio</h4>
+                <p>Creando experiencias de juego extraordinarias desde 2025.</p>
+                <p>© 2026 Amphoteric Ltd. Todos los derechos reservados.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="privacy.html">Privacy Policy</a></p>
+                <p><a href="terms.html">Terms & Conditions</a></p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:info@amphotericstudio.com">info@amphotericstudio.com</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Londres, Reino Unido</p>
+            </div>
+        </div>
         
-        // Efecto hover para el logo
-        const logo = document.querySelector('.logo-placeholder');
-        logo.addEventListener('mouseenter', () => {
-            logo.style.animation = 'float 3s ease-in-out infinite, pulse 1.5s ease-in-out infinite';
-        });
-        
-        logo.addEventListener('mouseleave', () => {
-            logo.style.animation = 'float 6s ease-in-out infinite, pulse 3s ease-in-out infinite';
-        });
-    </script>
+        <div class="footer-bottom">
+            <p style="margin-top: 1rem; font-size: 0.8rem;">
+                El logotipo y la marca "Amphoteric Studio" son propiedad de Amphoteric Ltd. 
+                Prohibido su uso sin autorización. Código bajo <a href="LICENSE">MIT License</a>.
+            </p>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
 </body>
 </html>
