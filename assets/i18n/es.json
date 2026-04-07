@@ -1,0 +1,163 @@
+{
+  "HEADER": {
+    "HOME": "Inicio",
+    "GAMES": "Juegos",
+    "ROADMAP": "Trayectoria",
+    "ABOUT": "Sobre Nosotros",
+    "PRIVACY": "Privacidad",
+    "CONTACT": "Contacto"
+  },
+  "FOOTER": {
+    "DESCRIPTION": "Creando experiencias de juego extraordinarias desde 2025.",
+    "RIGHTS": "Todos los derechos reservados.",
+    "QUICK_LINKS": "Enlaces Rápidos",
+    "LOCATION": "Londres, Reino Unido",
+    "TERMS": "Términos y Condiciones",
+    "LEGAL_NOTICE": "El logotipo y la marca 'Amphoteric Studio' son propiedad de Amphoteric Ltd. Prohibido su uso sin autorización. Código bajo"
+  },
+  "GAMES": {
+    "TITLE": "Nuestros Juegos",
+    "SUBTITLE": "Construyendo mundos. Creando sistemas. Haciendo jugables las ideas.",
+    "INTRO_1": "Amphoteric Studio es un estudio independiente de videojuegos y software.",
+    "INTRO_2": "Desarrollamos nuestros propios mundos de juego, publicamos títulos en plataformas como Google Play y trabajamos con socios en proyectos interactivos.",
+    "FOCUS_1": "Desarrollo de juegos e IPs propias",
+    "FOCUS_2": "Producción por encargo para estudios y empresas",
+    "FOCUS_3": "Desarrollo de software interactivo y aplicaciones",
+    "PIPELINE_TITLE": "Pipeline de Desarrollo",
+    "PIPELINE_TEXT": "Nuestra Pipeline actual muestra tres juegos en distintas fases de desarrollo.",
+    "TABLE": {
+      "GAME": "Juego",
+      "GENRE": "Género",
+      "STATUS": "Estado",
+      "STUDIO": "Estudio"
+    },
+    "STATUS": {
+      "PHASE_1": "Fase 1 / En desarrollo",
+      "PHASE_3_FIN": "Fase 3 / Finalización",
+      "PHASE_3_READY": "Fase 3 / Listo para mercado"
+    },
+    "CROM": {
+      "TAGLINE": "Una criatura alienígena. Un laboratorio secreto. Solo una salida.",
+      "DESC": "El pequeño allen Crom se estrelló en nuestro planeta y fue llevado a la peligrosa Área 151, en ella un científico loco le inyectó la sustancia J el cual hace que nuestro amigo verde salte sin parar. Ayuda a Crom a salir de su calabozo, encontrar su nave y escapar del Área 151 para volver a su planeta en esta divertida y retadora aventura 2d de plataformas, atraviesa diversos niveles, recolecta frutas, monetas, coleccionables y combustible estelar para completar esta travesía y lograr el escape de Crom."
+    },
+    "VELO": {
+      "TAGLINE": "Cuando el mundo pierde sus colores, comienza la búsqueda de la luz.",
+      "DESC": "Cuando el mundo pierde sus colores, comienza la búsqueda de la luz. El universo brillaba gracias al Gran Prisma, la fuente de sabiduría, emoción y voluntad, hasta que una fuerza oscura corrompió ese equilibrio y dejó el mundo en tonos grises. La última guardiana de los colores emprende un viaje para recuperar las energías perdidas y devolver el color a un universo silencioso. Mediante máscaras cambiantes, los jugadores resuelven puzles, transforman el entorno, recogen fragmentos del prisma y restauran zona a zona."
+    },
+    "LORY": {
+      "TAGLINE": "Estrategia, posicionamiento y cartas – en una arena de decisiones.",
+      "DESC": "Estrategia, posicionamiento y cartas — en una arena de decisiones. LoryForg combina estrategia por turnos y juego de cartas en un campo hexagonal donde dos jugadores intentan rodear o destruir la fortaleza enemiga. Sus cartas, facciones y sistemas tácticos forman parte de un universo más amplio y expansible."
+    }
+  },
+  "HOME": {
+    "STUDIO_TITLE": "Nuestro Estudio",
+    "STUDIO_DESC": "Amphoteric Game Studio es un pequeño equipo creativo de 4 personas, remoto, fundado en octubre de 2025 con sede en Londres. Desarrollamos nuestros propios videojuegos y creamos apps para clientes externos en todo el mundo.",
+    "WHAT_WE_DO": "Qué hacemos",
+    "SERVICES_SUB": "Unimos desarrollo, diseño y programación en un solo equipo.",
+    "SERVICE_1_TITLE": "Juegos Propios",
+    "SERVICE_1_TEXT": "Desde prototipos rápidos hasta proyectos completos con mundos originales.",
+    "SERVICE_2_TITLE": "Proyectos Externos",
+    "SERVICE_2_TEXT": "Pequeños juegos y apps con 'toque de juego' para empresas y organizaciones.",
+    "SERVICE_3_TITLE": "Software & Apps",
+    "SERVICE_3_TEXT": "Programación para PC, Android y Web, desde herramientas hasta apps completas.",
+    "IOS_NOTE": "Actualmente no desarrollamos para iOS por falta de hardware específico.",
+    "COLLAB_TITLE": "Colaboración y Desarrollo",
+    "COLLAB_TEXT_1": "Amphoteric LTD trabaja en proyectos para socios incluyendo títulos propios y prototipos a medida.",
+    "COLLAB_TEXT_2": "Ideales para proyectos medianos que requieren un equipo compacto, desarrollo rápido y dirección creativa nítida."
+  },
+  "ABOUT": {
+    "TITLE": "Sobre Nosotros",
+    "SUBTITLE": "Cuatro desarrolladores. Tres países. Un universo compartido.",
+    "INTRO_1": "Amphoteric Studio es un estudio independiente de juegos y software con sede en el Reino Unido.",
+    "INTRO_2": "Nuestro equipo trabaja a través de varios países: una parte en Venezuela y otra en Europa. A pesar de la distancia, desarrollamos juegos juntos – desde la primera idea hasta el lanzamiento.",
+    "INTRO_3": "Equipos pequeños. Ideas claras. Experimentos jugables.",
+    "THE_TEAM": "El Equipo",
+    "STUDIO_DATA_TITLE": "Datos del Estudio",
+    "CONTACT_TITLE": "Contacto",
+    "COMPANY_LABEL": "Empresa",
+    "HEADQUARTERS_LABEL": "Sede",
+    "HEADQUARTERS_VALUE": "Londres, Reino Unido",
+    "FOUNDED_LABEL": "Fundación",
+    "FOUNDED_VALUE": "Octubre 2025",
+    "SIZE_LABEL": "Tamaño",
+    "SIZE_VALUE": "4 Personas",
+    "MODEL_LABEL": "Modelo",
+    "MODEL_VALUE": "100% Remoto",
+    "ORIGIN_LABEL": "Origen",
+    "ORIGIN_VALUE": "Italia & Venezuela",
+    "TEAM": {
+      "JUAN": {
+        "SPECIALTY": "Sistemas de gameplay, física y herramientas",
+        "BIO": "Juan es nuestra cabeza técnica. Trabaja principalmente con LibGDX y Godot. Con su formación en física y experiencia en Fullstack, asegura que nuestros juegos funcionen estables en móviles y PC."
+      },
+      "FERNANDO": {
+        "SPECIALTY": "Personajes, mundos e identidad visual",
+        "BIO": "Fernando diseña toda la apariencia visual, desde personajes hasta UI. Su estilo combina inspiración retro con efectos visuales modernos. Trabaja en el equipo desde 2020."
+      },
+      "EZEQUIEL": {
+        "SPECIALTY": "Historia, diseño de niveles y mecánicas",
+        "BIO": "El cerebro creativo. Aporta una mirada analítica a los sistemas. Su pasión por la ciencia ficción moldea las historias y los desafíos reales de nuestros proyectos."
+      },
+      "ARMIN": {
+        "SPECIALTY": "Estrategia, organización y networking",
+        "BIO": "Estudió marketing en Italia y Francia. Coordina la organización y asociaciones internacionales. Su multilingüismo conecta diferentes mercados y comunidades globalmente."
+      }
+    }
+  },
+  "ROADMAP": {
+    "TITLE": "Nuestra Trayectoria",
+    "OCT": {
+      "DATE": "OCT 2025",
+      "TITLE": "La Fundación",
+      "POINTS": ["Fundación de Amphoteric LTD", "Avance del 50% en el desarrollo de Crom’s Escape"]
+    },
+    "NOV": {
+      "DATE": "NOV 2025",
+      "TITLE": "Estructura de Juego",
+      "POINTS": ["Terminación de los niveles principales", "80% del desarrollo alcanzado"]
+    },
+    "DIC": {
+      "DATE": "DIC 2025",
+      "TITLE": "Interfaz y Narrativa",
+      "POINTS": [
+        "90% del desarrollo completado",
+        "Terminación de la interfaz de usuario (UI)",
+        "Inicio de la cinemática principal"
+      ]
+    },
+    "ENE": {
+      "DATE": "ENE 2026",
+      "TITLE": "Hitos Técnicos",
+      "POINTS": [
+        "95% del desarrollo",
+        "Videos de historia finalizados",
+        "Programación base completada",
+        "Participación en la Game Jam Maracaibo"
+      ]
+    },
+    "FEB": {
+      "DATE": "FEB 2026",
+      "TITLE": "Pulido Final",
+      "POINTS": [
+        "Traducción y localización",
+        "Proceso de integración en Play Store",
+        "Juego 100% completado"
+      ]
+    },
+    "MAR": {
+      "DATE": "MAR 2026",
+      "TITLE": "El Lanzamiento",
+      "POINTS": ["Corrección de errores menores", "Publicación oficial en Play Store (23 de Marzo)"]
+    },
+    "ABR": {
+      "DATE": "ABR 2026",
+      "TITLE": "Presente y Futuro",
+      "POINTS": [
+        "Primera gran actualización de Crom’s Escape",
+        "Actualización del portal web",
+        "Mejoras continuas",
+        "Desarrollo del prototipo de Velo Cromato"
+      ]
+    }
+  }
+}

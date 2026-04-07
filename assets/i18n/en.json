@@ -1,0 +1,164 @@
+{
+  "HEADER": {
+    "HOME": "Home",
+    "GAMES": "Games",
+    "ROADMAP": "Journey",
+    "ABOUT": "About Us",
+    "PRIVACY": "Privacy",
+    "CONTACT": "Contact"
+  },
+  "FOOTER": {
+    "DESCRIPTION": "Creating extraordinary gaming experiences since 2025.",
+    "RIGHTS": "All rights reserved.",
+    "QUICK_LINKS": "Quick Links",
+    "LOCATION": "London, United Kingdom",
+    "TERMS": "Terms & Conditions",
+    "LEGAL_NOTICE": "The 'Amphoteric Studio' logo and brand are property of Amphoteric Ltd. Unauthorized use is prohibited. Code under"
+  },
+  "GAMES": {
+    "TITLE": "Our Games",
+    "SUBTITLE": "Building worlds. Creating systems. Making ideas playable.",
+    "INTRO_1": "Amphoteric Studio is an independent video game and software development studio.",
+    "INTRO_2": "We develop our own game worlds, publish titles on platforms like Google Play, and work with partners on interactive projects.",
+    "FOCUS_1": "Development of original games and IPs",
+    "FOCUS_2": "Work-for-hire game production for studios and companies",
+    "FOCUS_3": "Interactive software and digital application development",
+    "PIPELINE_TITLE": "Development Pipeline",
+    "PIPELINE_TEXT": "Our current pipeline showcases three games in different stages of development.",
+    "TRAILER_BTN": "Watch Trailer",
+    "TABLE": {
+      "GAME": "Game",
+      "GENRE": "Genre",
+      "STATUS": "Status",
+      "STUDIO": "Studio"
+    },
+    "STATUS": {
+      "PHASE_1": "Phase 1 / In Development",
+      "PHASE_3_FIN": "Phase 3 / Finalization",
+      "PHASE_3_READY": "Phase 3 / Market Ready"
+    },
+    "CROM": {
+      "TAGLINE": "An alien creature. A secret lab. Only one way out.",
+      "DESC": "Little alien Crom crashed onto our planet and was taken to the dangerous Area 151. There, a mad scientist injected him with Substance J, causing our green friend to jump without stopping. Help Crom break out of his dungeon, find his ship, and escape Area 151 to return to his home planet. In this fun and challenging 2D platforming adventure, you will traverse diverse levels, collect fruits, coins, and collectibles, and gather stellar fuel to complete this journey and secure Crom's escape."
+    },
+    "VELO": {
+      "TAGLINE": "When the world loses its colors, the search for light begins.",
+      "DESC": "When the world loses its colors, the search for light begins. The universe once shone thanks to the Great Prism—the source of wisdom, emotion, and will—until a dark force corrupted that balance, leaving the world in shades of grey. Now, the last guardian of colors embarks on a journey to recover the lost energies and restore color to a silent universe. By using shifting masks, players solve puzzles, transform the environment, collect prism fragments, and restore the world area by area."
+    },
+    "LORY": {
+      "TAGLINE": "Strategy, positioning, and cards – in an arena of decisions.",
+      "DESC": "Strategy, positioning, and cards—in an arena of decisions. LoryForg combines turn-based strategy and card gameplay on a hexagonal field where two players attempt to surround or destroy the enemy fortress. Its cards, factions, and tactical systems are part of a broader and expandable universe."
+    }
+  },
+  "HOME": {
+    "STUDIO_TITLE": "Our Studio",
+    "STUDIO_DESC": "Amphoteric Game Studio is a small creative remote team of 4, founded in October 2025 and based in London. We develop our own games while building apps for global clients.",
+    "WHAT_WE_DO": "What We Do",
+    "SERVICES_SUB": "We unite game development, design, and programming into one team.",
+    "SERVICE_1_TITLE": "Own Games",
+    "SERVICE_1_TEXT": "From quick prototypes to full projects featuring original worlds.",
+    "SERVICE_2_TITLE": "Client Projects",
+    "SERVICE_2_TEXT": "Small games and apps with a 'gamified touch' for companies and organizations.",
+    "SERVICE_3_TITLE": "Software & Apps",
+    "SERVICE_3_TEXT": "Coding for PC, Android, and Web, from small tools to full-scale web apps.",
+    "IOS_NOTE": "We currently do not develop for iOS due to lack of specific hardware.",
+    "COLLAB_TITLE": "Collaboration & Development",
+    "COLLAB_TEXT_1": "Amphoteric LTD works on partner projects including in-house titles and custom prototypes.",
+    "COLLAB_TEXT_2": "Perfect for medium projects requiring a compact team, fast development, and sharp creative direction."
+  },
+  "ABOUT": {
+    "TITLE": "About Us",
+    "SUBTITLE": "Four developers. Three countries. One shared universe.",
+    "INTRO_1": "Amphoteric Studio is an independent game and software studio based in the United Kingdom.",
+    "INTRO_2": "Our team works across several countries: one part in Venezuela, the other in Europe. Despite the distance, we develop games together—from the initial idea to the final launch.",
+    "INTRO_3": "Small teams. Clear ideas. Playable experiments.",
+    "THE_TEAM": "The Team",
+    "STUDIO_DATA_TITLE": "Studio Data",
+    "CONTACT_TITLE": "Contact",
+    "COMPANY_LABEL": "Company",
+    "HEADQUARTERS_LABEL": "Headquarters",
+    "HEADQUARTERS_VALUE": "London, United Kingdom",
+    "FOUNDED_LABEL": "Founded",
+    "FOUNDED_VALUE": "October 2025",
+    "SIZE_LABEL": "Size",
+    "SIZE_VALUE": "4 People",
+    "MODEL_LABEL": "Model",
+    "MODEL_VALUE": "100% Remote",
+    "ORIGIN_LABEL": "Origin",
+    "ORIGIN_VALUE": "Italy & Venezuel",
+    "TEAM": {
+      "JUAN": {
+        "SPECIALTY": "Gameplay systems, physics, and tools",
+        "BIO": "Juan is our technical lead. He primarily works with LibGDX and Godot. With a background in physics and Fullstack experience, he ensures our games remain stable and responsive on both mobile and PC."
+      },
+      "FERNANDO": {
+        "SPECIALTY": "Characters, worlds, and visual identity",
+        "BIO": "Fernando designs the entire visual look, from characters to UI. His style blends retro inspiration with modern visual effects. He has been a key team member since 2020."
+      },
+      "EZEQUIEL": {
+        "SPECIALTY": "Story, level design, and mechanics",
+        "BIO": "The creative brain of the studio. He brings an analytical perspective to game systems. His passion for science fiction shapes the stories and the real challenges within our projects."
+      },
+      "ARMIN": {
+        "SPECIALTY": "Strategy, organization, and networking",
+        "BIO": "Armin studied marketing in Italy and France. He coordinates the studio's organization and international partnerships. His multilingualism connects different markets and communities globally."
+      }
+    }
+  },
+  "ROADMAP": {
+    "TITLE": "Our Journey",
+    "OCT": {
+      "DATE": "OCT 2025",
+      "TITLE": "The Foundation",
+      "POINTS": ["Foundation of Amphoteric LTD", "Crom’s Escape: 50% development milestone"]
+    },
+    "NOV": {
+      "DATE": "NOV 2025",
+      "TITLE": "Game Structure",
+      "POINTS": ["Main levels completed", "80% development reached"]
+    },
+    "DIC": {
+      "DATE": "DEC 2025",
+      "TITLE": "UI & Narrative",
+      "POINTS": [
+        "90% development completed",
+        "Game interface (UI) finalized",
+        "Main story cinematic production begins"
+      ]
+    },
+    "ENE": {
+      "DATE": "JAN 2026",
+      "TITLE": "Technical Milestones",
+      "POINTS": [
+        "95% development milestone",
+        "Story videos completed",
+        "Core programming finalized",
+        "Participation in Game Jam Maracaibo"
+      ]
+    },
+    "FEB": {
+      "DATE": "FEB 2026",
+      "TITLE": "Final Polish",
+      "POINTS": [
+        "Translation and localization",
+        "Play Store onboarding process",
+        "Game 100% completed"
+      ]
+    },
+    "MAR": {
+      "DATE": "MAR 2026",
+      "TITLE": "The Launch",
+      "POINTS": ["Minor bug fixes", "Official Play Store release (March 23rd)"]
+    },
+    "ABR": {
+      "DATE": "APR 2026",
+      "TITLE": "Present & Future",
+      "POINTS": [
+        "Crom’s Escape: First major update",
+        "Official website refresh",
+        "Continuous improvements",
+        "Velo Cromato prototype development"
+      ]
+    }
+  }
+}
