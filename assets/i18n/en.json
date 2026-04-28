@@ -5,7 +5,8 @@
     "ROADMAP": "Journey",
     "ABOUT": "About Us",
     "PRIVACY": "Privacy",
-    "CONTACT": "Contact"
+    "CONTACT": "Contact",
+    "NEWS": "NEWS"
   },
   "FOOTER": {
     "DESCRIPTION": "Creating extraordinary gaming experiences since 2025.",
@@ -52,7 +53,7 @@
   },
   "HOME": {
     "STUDIO_TITLE": "Our Studio",
-    "STUDIO_DESC": "Amphoteric Game Studio is a small creative remote team of 4, founded in October 2025 and based in London. We develop our own games while building apps for global clients.",
+    "STUDIO_DESC": "Amphoteric Game Studio is a small creative remote team of 4 people, founded in October 2025 and based in London. We develop our own games while building apps for global clients.",
     "WHAT_WE_DO": "What We Do",
     "SERVICES_SUB": "We unite game development, design, and programming into one team.",
     "SERVICE_1_TITLE": "Own Games",
@@ -85,7 +86,7 @@
     "MODEL_LABEL": "Model",
     "MODEL_VALUE": "100% Remote",
     "ORIGIN_LABEL": "Origin",
-    "ORIGIN_VALUE": "Italy & Venezuel",
+    "ORIGIN_VALUE": "Italy & Venezuela",
     "TEAM": {
       "JUAN": {
         "SPECIALTY": "Gameplay systems, physics, and tools",
@@ -160,5 +161,11 @@
         "Velo Cromato prototype development"
       ]
     }
+  },
+  "NEWS": {
+    "TITLE_MAIN": "LATEST",
+    "TITLE_SUB": "NEWS",
+    "BY": "BY",
+    "READ_MORE": "READ FULL DATA"
   }
 }

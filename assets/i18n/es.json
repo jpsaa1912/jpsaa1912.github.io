@@ -5,7 +5,8 @@
     "ROADMAP": "Trayectoria",
     "ABOUT": "Sobre Nosotros",
     "PRIVACY": "Privacidad",
-    "CONTACT": "Contacto"
+    "CONTACT": "Contacto",
+    "NEWS": "Noticias"
   },
   "FOOTER": {
     "DESCRIPTION": "Creando experiencias de juego extraordinarias desde 2025.",
@@ -159,5 +160,11 @@
         "Desarrollo del prototipo de Velo Cromato"
       ]
     }
+  },
+  "NEWS": {
+    "TITLE_MAIN": "ÚLTIMAS",
+    "TITLE_SUB": "NOTICIAS",
+    "BY": "POR",
+    "READ_MORE": "LEER MÁS"
   }
 }

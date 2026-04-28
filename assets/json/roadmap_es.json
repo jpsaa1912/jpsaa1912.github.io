@@ -1,0 +1,57 @@
+{
+  "road": [
+    {
+      "DATE": "OCT 2025",
+      "TITLE": "La Fundación",
+      "POINTS": ["Fundación de Amphoteric LTD", "Avance del 50% en el desarrollo de Crom’s Escape"]
+    },
+    {
+      "DATE": "NOV 2025",
+      "TITLE": "Estructura de Juego",
+      "POINTS": ["Terminación de los niveles principales", "80% del desarrollo alcanzado"]
+    },
+    {
+      "DATE": "DIC 2025",
+      "TITLE": "Interfaz y Narrativa",
+      "POINTS": [
+        "90% del desarrollo completado",
+        "Terminación de la interfaz de usuario (UI)",
+        "Inicio de la cinemática principal"
+      ]
+    },
+    {
+      "DATE": "ENE 2026",
+      "TITLE": "Hitos Técnicos",
+      "POINTS": [
+        "95% del desarrollo",
+        "Videos de historia finalizados",
+        "Programación base completada",
+        "Participación en la Game Jam Maracaibo"
+      ]
+    },
+    {
+      "DATE": "FEB 2026",
+      "TITLE": "Pulido Final",
+      "POINTS": [
+        "Traducción y localización",
+        "Proceso de integración en Play Store",
+        "Juego 100% completado"
+      ]
+    },
+    {
+      "DATE": "MAR 2026",
+      "TITLE": "El Lanzamiento",
+      "POINTS": ["Corrección de errores menores", "Publicación oficial en Play Store (23 de Marzo)"]
+    },
+    {
+      "DATE": "ABR 2026",
+      "TITLE": "Presente y Futuro",
+      "POINTS": [
+        "Primera gran actualización de Crom’s Escape",
+        "Actualización del portal web",
+        "Mejoras continuas",
+        "Desarrollo del prototipo de Velo Cromato"
+      ]
+    }
+  ]
+}
