@@ -1,6 +1,14 @@
 {
   "news": [
     {
+      "titulo": "Crom’s Escape Gets a Fresh Update on Google Play",
+      "autor": "Juan Antonio Acacio",
+      "fecha": "Mayo 7, 2026",
+      "resumen": "Amphoteric Studio’s mobile platformer receives gameplay improvements, UI updates, and a new resurrection system in its latest patch.On May 6th, Crom’s Escape, the mobile platformer developed by Amphoteric Game Studio, received a new update on Google Play focused on improving gameplay flow, controls, and the overall user experience.",
+      "url": "https://www.gamecentralen.com/content/croms-escape-gets-a-fresh-update-on-google-play",
+      "img": "1.png"
+    },
+    {
       "titulo": "Crom’s Escape Review: Amphoteric Studio’s Indie Game Debut",
       "autor": "Juan Antonio Acacio",
       "fecha": "April 17, 2026",
@@ -10,3 +18,4 @@
     }
   ]
 }
+
