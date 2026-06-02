@@ -1,0 +1,31 @@
+{
+  "config_version": 1,
+
+  "premio_mayor_dia_7": {
+    "semana_id": "semana_fuego_2026",
+    "reward_type": "skin",
+    "item_id": "sueter_fuego_dragonbones",
+    "amount": 1
+  },
+
+  "pool_premios_diarios": {
+    "comun": [
+      { "reward_type": "money", "item_id": "coins", "amount": 50 },
+      { "reward_type": "power_up", "item_id": "casco", "amount": 1 },
+      { "reward_type": "power_up", "item_id": "guante", "amount": 1 },
+      { "reward_type": "power_up", "item_id": "burbujas", "amount": 1 }
+    ],
+    "raro": [
+      { "reward_type": "money", "item_id": "coins", "amount": 200 },
+      { "reward_type": "power_up", "item_id": "casco", "amount": 4 },
+      { "reward_type": "power_up", "item_id": "guante", "amount": 4 },
+      { "reward_type": "power_up", "item_id": "burbujas", "amount": 2 }
+    ],
+    "epico": [
+      { "reward_type": "money", "item_id": "coins", "amount": 500 },
+      { "reward_type": "power_up", "item_id": "casco", "amount": 6 },
+      { "reward_type": "power_up", "item_id": "guante", "amount": 6 },
+      { "reward_type": "power_up", "item_id": "burbujas", "amount": 3 }
+    ]
+  }
+}
