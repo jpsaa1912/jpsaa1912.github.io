@@ -1,5 +1,37 @@
 {
   "news": [
+     {
+      "titulo": "Crom’s Escape: Android-Platformer mit automatischer Sprungmechanik erschienen",
+      "autor": "Armin Ainhauser",
+      "fecha": "May 23, 2026",
+      "resumen": "Crom’s Escape is slowly starting to appear across different platforms and contexts. A short piece about the game is now also featured on another German press portal, called “Firmenpresse”, focusing on its core idea and gameplay approach. It’s interesting to see how the same concept is presented depending on the context — from dev discussions to more general publications. ",
+      "url": "https://www.firmenpresse.de/pressinfo2253076.html",
+      "img": "6.jfif"
+    },
+    {
+      "titulo": "Crom's Escape: Hard 2D Precision Platformer with Auto-Jump Mechanic Released on Android",
+      "autor": "Armin Ainhauser",
+      "fecha": "May 15, 2026",
+      "resumen": "Crom’s Escape has just appeared on another public stage where indie games can be discovered. 🚀 Our press release is now live on openPR, giving the project another public touchpoint beyond our own channels. For us, every new appearance helps strengthen context, credibility, and discoverability around the game.",
+      "url": "https://www.openpr.com/news/4512877/crom-s-escape-hard-2d-precision-platformer-with-auto-jump",
+      "img": "4.jfif"
+    },
+    {
+      "titulo": "Has anyone spotted our Crom’s Escape listing on IndieDB yet?",
+      "autor": "Armin Ainhauser",
+      "fecha": "May 13, 2026",
+      "resumen": "It probably hasn’t been live for very long, so we’re curious whether anyone has already come across it.",
+      "url": "https://www.indiedb.com/company/amphoteric-studio/news/croms-escape-released-on-android-hard-2d-precision-platformer",
+      "img": "5.jfif"
+    },
+    {
+      "titulo": "Why Game Jolt?",
+      "autor": "Armin Ainhauser",
+      "fecha": "May 13, 2026",
+      "resumen": "When we decide to showcase a project on a platform, it’s less about exposure and more about context. Game Jolt is a space where games are discovered through intent rather than algorithms. It’s where developers, players, and creators look at projects with curiosity for how they are built — not just how they are marketed.",
+      "url": "https://gamejolt.com/games/croms-escape/1069779",
+      "img": "3.jfif"
+    },
     {
       "titulo": "Crom’s Escape Gets a Fresh Update on Google Play",
       "autor": "Juan Antonio Acacio",
