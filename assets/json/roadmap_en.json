@@ -2,73 +2,73 @@
   "road": [
     {
       "DATE": "OCT 2025",
-      "TITLE": "La Fundación",
-      "POINTS": ["Fundación de Amphoteric LTD", "Avance del 50% en el desarrollo de Crom’s Escape"]
+      "TITLE": "The Foundation",
+      "POINTS": ["Foundation of Amphoteric LTD", "Crom’s Escape: 50% development milestone"]
     },
     {
       "DATE": "NOV 2025",
-      "TITLE": "Estructura de Juego",
-      "POINTS": ["Terminación de los niveles principales", "80% del desarrollo alcanzado"]
+      "TITLE": "Game Structure",
+      "POINTS": ["Main levels completed", "80% development reached"]
     },
     {
-      "DATE": "DIC 2025",
-      "TITLE": "Interfaz y Narrativa",
+      "DATE": "DEC 2025",
+      "TITLE": "UI & Narrative",
       "POINTS": [
-        "90% del desarrollo completado",
-        "Terminación de la interfaz de usuario (UI)",
-        "Inicio de la cinemática principal"
+        "90% development completed",
+        "Game interface (UI) finalized",
+        "Main story cinematic production begins"
       ]
     },
     {
-      "DATE": "ENE 2026",
-      "TITLE": "Hitos Técnicos",
+      "DATE": "JAN 2026",
+      "TITLE": "Technical Milestones",
       "POINTS": [
-        "95% del desarrollo",
-        "Videos de historia finalizados",
-        "Programación base completada",
-        "Participación en la Game Jam Maracaibo"
+        "95% development milestone",
+        "Story videos completed",
+        "Core programming finalized",
+        "Participation in Game Jam Maracaibo"
       ]
     },
     {
       "DATE": "FEB 2026",
-      "TITLE": "Pulido Final",
+      "TITLE": "Final Polish",
       "POINTS": [
-        "Traducción y localización",
-        "Proceso de integración en Play Store",
-        "Juego 100% completado"
+        "Translation and localization",
+        "Play Store onboarding process",
+        "Game 100% completed"
       ]
     },
     {
       "DATE": "MAR 2026",
-      "TITLE": "El Lanzamiento",
-      "POINTS": ["Corrección de errores menores", "Publicación oficial en Play Store (23 de Marzo)"]
+      "TITLE": "The Launch",
+      "POINTS": ["Minor bug fixes", "Official Play Store release (March 23rd)"]
     },
     {
-      "DATE": "ABR 2026",
-      "TITLE": "Presente y Futuro",
+      "DATE": "APR 2026",
+      "TITLE": "Present & Future",
       "POINTS": [
-        "Primera gran actualización de Crom’s Escape",
-        "Actualización del portal web",
-        "Mejoras continuas",
-        "Desarrollo del prototipo de Velo Cromato"
+        "Crom’s Escape: First major update",
+        "Official website refresh",
+        "Continuous improvements",
+        "Velo Cromato prototype development"
       ]
     },
     {
       "DATE": "MAY 2026",
-      "TITLE": "Consolidación y Nuevas Mecánicas",
+      "TITLE": "Consolidation and New Mechanics",
       "POINTS": [
-        "Mejora de las funcionalidades de Crom’s Escape",
-        "Mejoras continuas",
-        "Desarrollo de las mecánicas de física de Velo Cromato"
+        "Improvement of Crom’s Escape functionalities",
+        "Continuous improvements",
+        "Development of physics mechanics for Velo Cromato"
       ]
     },
     {
       "DATE": "JUN 2026",
-      "TITLE": "Evolución Visual",
+      "TITLE": "Visual Evolution",
       "POINTS": [
-        "Trabajo en mejoras de Crom’s Escape",
-        "Mejoras continuas",
-        "Inicio de los diseños gráficos principales de Velo Cromato"
+        "Work on Crom’s Escape improvements",
+        "Continuous improvements",
+        "Start of the main graphic designs for Velo Cromato"
       ]
     }
   ]
