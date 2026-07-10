@@ -52,6 +52,24 @@
         "Mejoras continuas",
         "Desarrollo del prototipo de Velo Cromato"
       ]
+    },
+    {
+      "DATE": "MAY 2026",
+      "TITLE": "Consolidación y Nuevas Mecánicas",
+      "POINTS": [
+        "Mejora de las funcionalidades de Crom’s Escape",
+        "Mejoras continuas",
+        "Desarrollo de las mecánicas de física de Velo Cromato"
+      ]
+    },
+    {
+      "DATE": "JUN 2026",
+      "TITLE": "Evolución Visual",
+      "POINTS": [
+        "Trabajo en mejoras de Crom’s Escape",
+        "Mejoras continuas",
+        "Inicio de los diseños gráficos principales de Velo Cromato"
+      ]
     }
   ]
 }
