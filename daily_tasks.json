@@ -1,0 +1,89 @@
+{
+  "daily_tasks": {
+    "facil": {
+      "reward_chest": "cofre_comun",
+      "tasks": [
+        {
+          "id": "easy_01",
+          "title": "Aprendiz de Diamante",
+          "description": "Recolecta los 3 diamantes en un mismo nivel"
+        },
+        {
+          "id": "easy_02",
+          "title": "Aprendiz de Estrella",
+          "description": "Recolecta las 3 estrellas en un mismo nivel"
+        },
+        {
+          "id": "easy_03",
+          "title": "Corazón Sano",
+          "description": "Termina un nivel con al menos 2 corazones intactos"
+        },
+        {
+          "id": "easy_04",
+          "title": "Sin Prisas",
+          "description": "Termina un nivel superando la puntuación anterior del mismo nivel"
+        },
+        {
+          "id": "easy_05",
+          "title": "Novato Puntuación",
+          "description": "Alcanza una puntuación final de 3.500 puntos en un solo nivel"
+        },
+        {
+          "id": "easy_06",
+          "title": "Racha de Supervivencia",
+          "description": "Completa 3 niveles seguidos"
+        }
+      ]
+    },
+    "medio": {
+      "reward_chest": "cofre_raro",
+      "tasks": [
+        {
+          "id": "medium_01",
+          "title": "Cazador Dual",
+          "description": "Recolecta los 3 diamantes Y las 3 estrellas en un mismo nivel"
+        },
+        {
+          "id": "medium_02",
+          "title": "Velocidad Constante",
+          "description": "Termina 2 niveles distintos superando la puntuación anterior de cada nivel"
+        },
+        {
+          "id": "medium_03",
+          "title": "Sin Morir",
+          "description": "Completa cualquier nivel sin perder ningún corazón"
+        }
+      ]
+    },
+    "dificil": {
+      "reward_chest": "cofre_epico",
+      "tasks": [
+        {
+          "id": "hard_01",
+          "title": "Completista Absoluto",
+          "description": "Recolecta TODOS los coleccionables del mapa (100% diamantes, estrellas, objetos y monedas) en 1 partida"
+        },
+        {
+          "id": "hard_02",
+          "title": "Guardián Puro",
+          "description": "Termina con los 3 corazones de vida habiendo recolectado los 3 diamantes y 3 estrellas"
+        },
+        {
+          "id": "hard_03",
+          "title": "Autosuficiencia Total",
+          "description": "Termina 5 niveles con los 3 corazones intactos"
+        },
+        {
+          "id": "hard_04",
+          "title": "Estrella Inmortal",
+          "description": "Completa 5 niveles seguidos sin perder ni un solo corazón con 3 estrellas"
+        },
+        {
+          "id": "hard_05",
+          "title": "Diamante Inmortal",
+          "description": "Completa 5 niveles seguidos sin perder ni un solo corazón con 3 diamantes"
+        }
+      ]
+    }
+  }
+}
