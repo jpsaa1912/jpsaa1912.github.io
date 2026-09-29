@@ -70,6 +70,32 @@
         "Mejoras continuas",
         "Inicio de los diseños gráficos principales de Velo Cromato"
       ]
+    },
+    {
+      "DATE": "JUL 2026",
+      "TITLE": "Sistemas y Prototipado",
+      "POINTS": [
+        "Mejoras en los sistemas y menús de Crom’s Escape",
+        "Prototipado de nuevos proyectos de juego",
+        "Mecánicas de física de Velo Cromato completadas"
+      ]
+    },
+    {
+      "DATE": "AGO 2026",
+      "TITLE": "Expansión y Estrategia",
+      "POINTS": [
+        "Desarrollo continuo de la próxima actualización de Crom’s Escape",
+        "Integración de nuevas mecánicas en Crom’s Escape",
+        "Diseño de la estrategia de marketing"
+      ]
+    },
+    {
+      "DATE": "SEP 2026",
+      "TITLE": "Posicionamiento y Ajustes Finales",
+      "POINTS": [
+        "Inicio del posicionamiento en redes sociales y estrategia de marketing",
+        "Finalización de cambios en Crom’s Escape para su próxima actualización"
+      ]
     }
   ]
 }
