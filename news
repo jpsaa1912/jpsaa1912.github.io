@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" data-beasties-container>
+  <head>
+    <meta charset="utf-8">
+    <title>Amphoteric Studio | Games & Software</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Meta Description optimizada -->
+    <meta name="description" content="Official website of Amphoteric Studio, Ltd. Discover our indie games like Crom's Escape and cross-platform software solutions.">
+
+    <!-- Etiqueta Canonical -->
+    <link rel="canonical" href="https://amphotericstudio.com/">
+
+    <!-- Open Graph (Redes Sociales) -->
+    <meta property="og:title" content="Amphoteric Studio | Games &amp; Software">
+    <meta property="og:description" content="Official website of Amphoteric Studio, Ltd. Discover our indie games like Crom's Escape and cross-platform software solutions.">
+    <meta property="og:image" content="https://amphotericstudio.com/assets/1.webp">
+    <meta property="og:url" content="https://amphotericstudio.com/">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/logo.webp">
+
+    <!-- JSON-LD Structured Data (Organización / Estudio de Videojuegos y Software) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Amphoteric Studio, Ltd.",
+        "url": "https://amphotericstudio.com/",
+        "logo": "https://amphotericstudio.com/assets/logo.png",
+        "sameAs": [
+          "https://x.com/Amphotericstu",
+          "https://www.instagram.com/amphotericstudio",
+          "https://www.tiktok.com/@amphoteric.studio",
+          "https://www.youtube.com/@amphotericstudio",
+          "https://www.linkedin.com/company/amphoteric-studio/"
+        ],
+        "description": "Independent game development studio specializing in high-quality mobile and multi-platform indie titles such as Crom's Escape."
+      }
+    </script>
+  <style>@font-face{font-family:Atma;font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/atma/v19/uK_z4rqWc-Eoo8JzGiI3P8ed.woff2) format("woff2");unicode-range:U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1,U+11DF0-11DF1}@font-face{font-family:Atma;font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/atma/v19/uK_z4rqWc-Eoo8JzGj43P8ed.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Atma;font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/atma/v19/uK_z4rqWc-Eoo8JzGjA3Pw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Atma;font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/atma/v19/uK_84rqWc-Eoq3tRDw8W.woff2) format("woff2");unicode-range:U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1,U+11DF0-11DF1}@font-face{font-family:Atma;font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/atma/v19/uK_84rqWc-Eoq2dRDw8W.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Atma;font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/atma/v19/uK_84rqWc-Eoq2lRDw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Atma;font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/atma/v19/uK_z4rqWc-Eoo5pyGiI3P8ed.woff2) format("woff2");unicode-range:U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1,U+11DF0-11DF1}@font-face{font-family:Atma;font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/atma/v19/uK_z4rqWc-Eoo5pyGj43P8ed.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Atma;font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/atma/v19/uK_z4rqWc-Eoo5pyGjA3Pw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Atma;font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/atma/v19/uK_z4rqWc-Eoo7Z1GiI3P8ed.woff2) format("woff2");unicode-range:U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1,U+11DF0-11DF1}@font-face{font-family:Atma;font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/atma/v19/uK_z4rqWc-Eoo7Z1Gj43P8ed.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Atma;font-style:normal;font-weight:600;font-display:swap;src:url(https://fonts.gstatic.com/s/atma/v19/uK_z4rqWc-Eoo7Z1GjA3Pw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Atma;font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/atma/v19/uK_z4rqWc-Eoo9J0GiI3P8ed.woff2) format("woff2");unicode-range:U+0951-0952,U+0964-0965,U+0980-09FE,U+1CD0,U+1CD2,U+1CD5-1CD6,U+1CD8,U+1CE1,U+1CEA,U+1CED,U+1CF2,U+1CF5-1CF7,U+200C-200D,U+20B9,U+25CC,U+A8F1,U+11DF0-11DF1}@font-face{font-family:Atma;font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/atma/v19/uK_z4rqWc-Eoo9J0Gj43P8ed.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Atma;font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/atma/v19/uK_z4rqWc-Eoo9J0GjA3Pw.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}:root{--font-atma:"Atma", system-ui, -apple-system, sans-serif}html,body{font-family:var(--font-atma);margin:0}html{scroll-behavior:smooth;scroll-padding-top:80px}</style><link rel="stylesheet" href="styles-RPJPVQAZ.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-RPJPVQAZ.css"></noscript></head>
+  <body>
+    <app-root></app-root>
+  <script src="main-VXWKXUKH.js" type="module"></script></body>
+</html>
